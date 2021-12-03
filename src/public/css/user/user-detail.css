@@ -1,0 +1,14 @@
+.custom-file-upload{
+    margin-top: 10px;
+    display: none;
+}
+.file-upload-info{
+    color: #212121;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.col-edit{
+    padding-left: 19px;
+}

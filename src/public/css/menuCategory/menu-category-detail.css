@@ -1,0 +1,24 @@
+/**
+Content
+ */
+/*label*/
+
+.control-label {
+    text-align: left !important;
+}
+
+/*input*/
+
+
+/*button*/
+
+.col-edit {
+    padding-left: 19px;
+}
+
+/*others*/
+
+
+.menu-category-detail-profile{
+    height: 212px;
+}

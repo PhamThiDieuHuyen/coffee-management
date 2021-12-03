@@ -1,0 +1,8 @@
+Start project: php artisan serve
+
+File quan tam:
+- C:\xampp\htdocs\coffee-management\src\routes\web.php : tao url
+- C:\xampp\htdocs\coffee-management\src\app\Http\Controllers : chua file controller
+- C:\xampp\htdocs\coffee-management\src\resources\views : chua file view
+- C:\xampp\htdocs\coffee-management\src\public: Chua file css, javascript
+test

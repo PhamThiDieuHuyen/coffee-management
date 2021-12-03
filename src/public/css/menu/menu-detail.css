@@ -1,0 +1,64 @@
+/**
+Content
+ */
+/*label*/
+
+.control-label {
+    text-align: left !important;
+}
+
+/*input*/
+
+/*image, choose upload file*/
+
+.custom-file-upload {
+    margin-top: 10px;
+    display: none;
+}
+
+.file-upload-info {
+    color: #212121;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.frame-avatar {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border: 1px solid #E6E9ED;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 130px;
+    object-fit: cover;
+    width: 130px;
+}
+
+.menu-detail-profile {
+    height: 212px;
+}
+/*button*/
+
+.col-edit {
+    padding-left: 13px;
+}
+
+/*others*/
+.upload-error{
+    background: url("../../images/unchecked.gif") no-repeat;
+    padding-left: 16px;
+    margin-left: .3em;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            text-align: center;
+            margin: 20px auto;
+        }
+        h1{
+            text-align: center;
+            font-weight: normal;
+        }
+        b{
+            color: #0b97c4;
+        }
+        p{
+            text-align: center;
+        }
+        button{
+            color: white;
+            background-color: #635555;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        button:hover{
+            background-color: #00A000;
+        }
+        .view{
+            width: 41%;
+            margin: auto;
+            border: 1px solid #1a1a1a;
+        }
+    </style>
+    <script>
+        function show() {
+            var demo = document.getElementById("demo");
+            if (demo.style.display === "none")
+                demo.style.display = "block";
+            else
+                demo.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div><img src="http://nhandaovadoisong.com.vn/wp-content/uploads/2019/05/hinh-anh-hoat-hinh-de-thuong-29.jpg"
+              width="190px" height="50px"></div>
+    <h1>Best <b>Shared Hosting</b> Company</h1>
+    <p>With this response landing page template, you can promote your all hosting, domain and email sevices.</p>
+    <div align="center">
+        <button onclick="show()">View Plans</button>
+        <button>All Features</button>
+    </div>
+    <div id="demo" style="display: none">
+        <div class="view">
+            <h3>Here is Plan</h3>
+            <p>Việt Nam tự hào sở hữu một di sản văn hóa cà phê giàu có, và 'Phin' chính là linh hồn, là nét văn hóa thưởng
+                thức cà phê đã ăn sâu vào tiềm thức biết bao người Việt. Cà phê rang xay được chiết xuất chậm rãi từng giọt
+                một thông qua dụng cụ lọc bằng kim loại có tên là 'Phin', cũng giống như thể hiện sự sâu sắc trong từng suy
+                nghĩ và chân thành trong những mối quan hệ hiện hữu. Bạn có thể tùy thích lựa chọn uống nóng hoặc dùng chung
+                với đá, có hoặc không có sữa đặc.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

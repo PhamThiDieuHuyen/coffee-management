@@ -1,0 +1,53 @@
+.custom-file-upload{
+    margin-top: 10px;
+}
+.file-upload-info{
+    color: #212121;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.col-edit{
+    padding-left: 19px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+.user-password label i{
+    display: none;
+}
+.user-confirm-password label i{
+    display: none;
+}
+#message{
+    margin-left: 190px;
+    padding-left: 39px;
+    background-color: #f5efe5;
+    height: 114px;
+    width: 340px;
+    margin-top: 42px;
+}
+#message h5{
+    padding-top: 2px;
+}
